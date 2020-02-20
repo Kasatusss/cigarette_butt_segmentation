@@ -11,16 +11,16 @@ def get_augmented_image(image, mask, bbox, i):
     """ Generate image with choosen method.
     See also: https://github.com/aleju/imgaug.git.
     Args: ndarray
-        image: ndarray
+        image: ndarray, (512, 512, 3)
             An image to generate new image
-        mask: ndarray
+        mask: ndarray, (512, 512, 1)
             mask of the image
         bbox: list, [x1, y1, w, h]
             boundary boxes of the image
     Returns: 
-        aug_img: ndarray
-        mask_aug: ndaarray
-        bbox_aug: ndarray
+        aug_img: ndarray, (512, 512, 3)
+        mask_aug: ndaarray, (512, 512, 1)
+        bbox_aug: list, [x1, y1, w, h]
 
     """
     if i==1: mode = iaa.AdditiveGaussianNoise(scale=(0.14, 0.2*255))
