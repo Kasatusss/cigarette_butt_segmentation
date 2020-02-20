@@ -8,7 +8,7 @@ import imgaug.augmenters as iaa
 
 
 def get_augmented_image(image, mask, bbox, i):
-    """ Generate image with randomly choosen method.
+    """ Generate image with choosen method.
     See also: https://github.com/aleju/imgaug.git.
     Args: ndarray
         image: ndarray
