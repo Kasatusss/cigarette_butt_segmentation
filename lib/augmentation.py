@@ -9,7 +9,7 @@ import imgaug.augmenters as iaa
 
 def get_augmented_image(image, mask, bbox, i):
     """ Generate image with choosen method. Bbox and mask
-    will be generated with the same method.
+    will be generated accordingly.
     See also: https://github.com/aleju/imgaug.git.
     Args: ndarray
         image: ndarray, (512, 512, 3)
