@@ -1,4 +1,4 @@
-Ссылка на скачивание данных: [link](https://www.immersivelimit.com/datasets/cigarette-butts).
+Ссылка на скачивание данных: [link](https://www.immersivelimit.com/datasets/cigarette-butts).  
 Примеры аугментированных картинок можно посомтреть здесь: [link](https://drive.google.com/drive/folders/1hbZxNCGzTPYahAgtyTziYfetvul5P6nl?usp=sharing)
 
 Данные представляют из себя набор синтетически сгенерированных фотографий окурков сигарет и маски, определяющей их на фотографии, а также координаты ограничивающего их бокса.
